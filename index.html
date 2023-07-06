@@ -27,6 +27,7 @@
 
         header {
             display: flex;
+            flex-direction: column;
             gap: 2rem;
             margin: 2rem;
         }
@@ -51,7 +52,7 @@
 
         .jukebox {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-gap: 10px;
             justify-content: center;
 
@@ -105,6 +106,22 @@
             color: white;
 
         }
+
+        @media screen and (min-width:1000px) {
+            .jukebox {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            header {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                margin: 2rem;
+            }
+
+
+        }
     </style>
 </head>
 
@@ -121,7 +138,209 @@
     </header>
 
     <section class="jukebox">
+
+        <div class="song">
+            <a href="https://www.deezer.com/track/2299840635"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/67bbf9fc8e49fc8d373c91963061572b/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Dance The Night (From Barbie The Album)</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/482990352"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/0397baea24f861db7ee63fb1c70391f9/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> One Kiss</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/793163542"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/2330b746089b5f6f4507cb84cc35d4d3/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Don't Start Now</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1124841712"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/d0f8d853e871838a4a6d8e5b7cdd1432/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Love Again</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1124841682"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/d0f8d853e871838a4a6d8e5b7cdd1432/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Levitating</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/911712382"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/ff0af77da1b8ab1ed8019b0c0383a901/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Break My Heart</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1093313332"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/c587eead93af5ba5d1cc5adc4ec9ee2c/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Levitating (feat. DaBaby)</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1120361182"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/5cfeef1792d05b6d3ad506bd15d8e3e2/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Fever</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1438941192"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/a51f40e52438e6714783e9606cf02b07/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Dual Ipa</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/862051992"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/900a6900fe727dd96d2aa566e68ad79f/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Physical</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/136341512"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/035cf1c66c42388959a3cdf0465018c4/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> No Lie</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1151534112"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/3f5dd91b74257de4190a92893347bdf8/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Prisoner (feat. Dua Lipa)</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/568846072"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/a0276b18d24c80be6968de9ef9d1a298/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> IDGAF</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1124841702"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/d0f8d853e871838a4a6d8e5b7cdd1432/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Hallucinate</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1765270907"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/f8f0ef7ebb5cd8cea80d1c9ceabbdb9a/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Potion</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/568846122"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/a0276b18d24c80be6968de9ef9d1a298/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> New Rules</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/550232732"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/f948ee6c4844c0451ad64c75e19c028f/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Electricity (feat. Diplo &amp; Mark Ronson)</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/140856305"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/8e6e0c8973442986572a2e8a5492fdd9/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Scared to Be Lonely</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/2253619867"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/b7b84694589f0192ee6f1f24e7421f00/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Dua Lipa</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1516899042"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/0688a24c3ec63edbbc173eff549c2dba/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Cold Heart (Acoustic)</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1234638672"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/b484613e289a18cdfcffc6304cfa6004/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Pretty Please</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1124841662"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/d0f8d853e871838a4a6d8e5b7cdd1432/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Cool</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/109843102"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/1b2c539c2f533d848d08a7896edae76f/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Be the One</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1679489667"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/98233168a56468d138825c7d517584c7/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Sweetest Pie</div>
+        </div>
+        <div class="song">
+            <a href="https://www.deezer.com/track/1124841672"> <i class="fa fa-play-circle fa-1x"
+                    aria-hidden="true"></i></a>
+            <img class="tile"
+                src="https://e-cdns-images.dzcdn.net/images/cover/d0f8d853e871838a4a6d8e5b7cdd1432/250x250-000000-80-0-0.jpg"
+                alt="album cover">
+            <div class="text_title"> Physical</div>
+        </div>
     </section>
+
 
     <script>
         document.getElementById("submit").addEventListener('click', collect);
