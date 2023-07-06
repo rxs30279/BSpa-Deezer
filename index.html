@@ -353,7 +353,7 @@
             const options = {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': 'aa5eb0538fmshdf5108ad9fcd0b1p1160ffjsn7be0e06c7f05',
+                    'X-RapidAPI-Key': API_KEY,
                     'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
                 }
             };
@@ -367,7 +367,7 @@
                         output(item)
                     });
                 });
-
+            console.log("response = ", response);
             function output(albums) {
 
                 let div = `<div class="song">
